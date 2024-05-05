@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Facebook Clone</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- header starts -->
+    <div class="header">
+      <div class="header__left">
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Facebook_f_logo_%282019%29.svg/1200px-Facebook_f_logo_%282019%29.svg.png"
+          alt=""
+        />
+        <div class="header__input">
+          <span class="material-icons"> search </span>
+          <input type="text" placeholder="Tìm kiếm" />
+        </div>
+      </div>
+
+      <div class="header__middle">
+        <div class="header__option active">
+          <span class="material-icons"> home </span>
+        </div>
+        <div class="header__option">
+          <span class="material-icons"> flag </span>
+        </div>
+        <div class="header__option">
+          <span class="material-icons"> subscriptions </span>
+        </div>
+        <div class="header__option">
+          <span class="material-icons"> storefront </span>
+        </div>
+        <div class="header__option">
+          <span class="material-icons"> supervised_user_circle </span>
+        </div>
+      </div>
+
+      <div class="header__right">
+        <div class="header__info">
+          <img
+            class="user__avatar"
+            src="./img/user.png"
+            alt=""
+          />
+          <h4>Quang Tùng</h4>
+        </div>
+        <span class="material-icons"> add </span>
+        <span class="material-icons"> forum </span>
+        <span class="material-icons"> notifications_active </span>
+        <span class="material-icons"> expand_more </span>
+      </div>
+    </div>
+    <!-- header ends -->
+
+    <!-- main body starts -->
+    <div class="main__body">
+        <!-------------------- profile page -------------------->
+
+    <div class="profile-container">
+        <img src="./img/anhbia.jpg" class="cover-img">
+        <div class="profile-details">
+            <div class="pd-left">
+                <div class="pd-row">
+                    <img src="./img/user.png" class="pd-image">
+                    <div>
+                        <h3>Quang Tùng</h3>
+                        <p>220 Bạn bè</p>
+                        <img src="./img/user.png">
+                        <img src="./img/user.png">
+                        <img src="./img/user.png">
+                        <img src="./img/user.png">
+                    </div>
+                </div>
+            </div>
+            <div class="pd-right">
+
+              <button type="button"><img src="./img/plus.png">Thêm vào tin</button>
+              <button type="button" class="whitebutton"><img src="./img/pencil.png">Chỉnh sửa thông tin</button>
+              
+              <br>
+              <a href=""><img src="./img/more.png"></a>
+
+
+
+            </div>
+        </div>
+
+
+         <div class="profile-info">
+            <div class="info-col">
+
+               
+                <div class="profile-intro">
+                    <h3>Intro</h3>
+                    <p class="intro-text">Belive in yourself and you can do unbelievable things. <img src="./img/feeling.png"></p>
+                    <hr>
+                    <ul>
+                        <li><img src="./img/profile-job.png">Mobile Developer</li>
+                        <li><img src="./img/profile-study.png"> Học tại Học viện Bưu chính Viễn thông</li>
+                        <li><img src="./img/profile-home.png"> Sống tại Hà Nội</li>
+                        <li><img src="./img/profile-location.png"> Đến từ Yên Phong, Bắc Ninh</li>
+                    </ul>
+                </div>
+
+                
+                <div class="profile-intro">
+                    <div class="title-box">
+                        <h3>Ảnh</h3>
+                        <a href="">Tất cả ảnh</a>
+                    </div>
+                   
+                    <div class="photo-box">
+                        <div> <img src="./img/user.png"></div>
+                        <div> <img src="./img/user.png"></div>
+                        <div> <img src="./img/user.png"></div>
+                        <div> <img src="./img/user.png"></div>
+                        <div> <img src="./img/user.png"></div>
+                        <div> <img src="./img/user.png"></div>
+                        
+                    </div>
+                </div>
+
+
+
+                <div class="profile-intro">
+                    <div class="title-box">
+                        <h3>Bạn bè</h3>
+                        <a href="">Tất cả bạn bè</a>
+                    </div>
+                   <p>220</p>
+                    <div class="friends-box">
+                        <div> <img src="./img/user.png"><p>Anh</p></div>
+                        <div> <img src="./img/user.png"><p>Bình</p></div>
+                        <div> <img src="./img/user.png"><p>Cường</p></div>
+                        <div> <img src="./img/user.png"><p>Dũng</p></div>
+                        <div> <img src="./img/user.png"><p>Emma</p></div>
+                        <div> <img src="./img/user.png"><p>Fuga</p></div>
+                        <div> <img src="./img/user.png"><p>Giang</p></div>
+                        <div> <img src="./img/user.png"><p>Hằng</p></div>
+                        <div> <img src="./img/user.png"><p>Ito</p></div>
+                        
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="post-col">
+
+                <div class="write-post-container">
+                    <div class="user-profile">
+                        <img src="./img/user.png">
+                        <div>
+                            <p>Quang Tùng</p>
+                            <small>Public</small>
+                        </div>
+                    </div>
+
+                    <div class="post-input-container">
+                        <textarea rows="3" placeholder="Bạn đang nghĩ điều gì? Tùng"></textarea>
+                        <div class="add-post-links">
+                            <a href="#"><img src="./img/live-video.png">Video trực tiếp</a>
+                            <a href="#"><img src="./img/photo.png">Ảnh/Video</a>
+                            <a href="#"><img src="./img/feeling.png">Cảm xúc/Hoạt động</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                            <img src="./img/user.png">
+        
+                            <div>
+                                <p>Quang Tùng</p>
+                               <span>20 tháng 5, 13:10</span>
+                            </div>
+                        </div>
+                        <a href="#"><i class="fa-solid fa-ellipsis-v"></i></a>
+                    </div>
+               
+    
+                    <p class="post-text"> Follow on facebook/instagram/twitter/linkedin/<span>github. to frontend coding</span>/ New-Projects<a href="https://www.linkedin.com/in/shaker-farooqui-6a28251b0/">Linkedin</a></p>
+                    <img src="./img/feed-image-5.png" class="post-img">
+    
+                    <div class="post-row">
+                        <div class="activity-icons">
+                           <div><img src="./img/like-blue.png"> 1110</div>
+                           <div><img src="./img/comments.png"> 723</div>
+                           <div><img src="./img/share.png"> 319</div>
+                        </div>
+                        <div class="post-profile-icon">
+                          <img src="./img/user.png"> <i class="fa-solid fa-caret-down"></i>
+                        </div>
+                    </div>
+                </div>
+    
+    
+    
+                <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                            <img src="./img/user.png">
+        
+                            <div>
+                                <p>Quang Tùng</p>
+                               <span>19 tháng 5, 13:10</span>
+                            </div>
+                        </div>
+                        <a href="#"><i class="fa-solid fa-ellipsis-v"></i></a>
+                    </div>
+               
+                    <p class="post-text">Like and share this video with friends, tag <span>Farooqui Shaker</span> facebook page on your post. Ask your doubts in the comments <a href="https://www.facebook.com/home.php?ref=homescreenpwa">Facebook</a></p>
+                    <img src="./img/feed-image-2.png" class="post-img">
+    
+                    <div class="post-row">
+                        <div class="activity-icons">
+                           <div><img src="./img/like.png"> 721</div>
+                           <div><img src="./img/comments.png"> 418</div>
+                           <div><img src="./img/share.png"> 210</div>
+                        </div>
+                        <div class="post-profile-icon">
+                          <img src="./img/user.png"> <i class="fa-solid fa-caret-down"></i>
+                        </div>
+                    </div>
+                </div>
+    
+    
+    
+                <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                            <img src="./img/user.png">
+        
+                            <div>
+                                <p>Quang Tùng</p>
+                               <span>June 27 2021, 13:10 pm</span>
+                            </div>
+                        </div>
+                        <a href="#"><i class="fa-solid fa-ellipsis-v"></i></a>
+                    </div>
+               
+                    <p class="post-text">Like and share this video with friends, tag <span>Farooqui Shaker</span> facebook page on your post. Ask your doubts in the comments <a href="https://www.facebook.com/home.php?ref=homescreenpwa">Facebook</a></p>
+                    <img src="./img/feed-image-3.png" class="post-img">
+    
+                    <div class="post-row">
+                        <div class="activity-icons">
+                           <div><img src="./img/like.png"> 991</div>
+                           <div><img src="./img/comments.png"> 603</div>
+                           <div><img src="./img/share.png"> 337</div>
+                        </div>
+                        <div class="post-profile-icon">
+                          <img src="./img/user.png"> <i class="fa-solid fa-caret-down"></i>
+                        </div>
+                    </div>
+                </div>
+    
+    
+    
+                <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                            <img src="./img/user.png">
+        
+                            <div>
+                                <p>Quang Tùng</p>
+                               <span>June 27 2021, 13:10 pm</span>
+                            </div>
+                        </div>
+                        <a href="#"><i class="fa-solid fa-ellipsis-v"></i></a>
+                    </div>
+               
+                    <p class="post-text">Like and share this video with friends, tag <span>Farooqui Shaker</span> facebook page on your post. Ask your doubts in the comments <a href="https://www.facebook.com/home.php?ref=homescreenpwa">Facebook</a></p>
+                    <img src="./img/feed-image-4.png" class="post-img">
+    
+                    <div class="post-row">
+                        <div class="activity-icons">
+                           <div><img src="./img/like.png"> 886</div>
+                           <div><img src="./img/comments.png"> 567</div>
+                           <div><img src="./img/share.png"> 243</div>
+                        </div>
+                        <div class="post-profile-icon">
+                          <img src="./img/user.png"> <i class="fa-solid fa-caret-down"></i>
+                        </div>
+                    </div>
+                </div>
+    
+    
+    
+                <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                            <img src="./img/user.png">
+        
+                            <div>
+                                <p>Quang Tùng</p>
+                               <span>June 27 2021, 13:10 pm</span>
+                            </div>
+                        </div>
+                        <a href="#"><i class="fa-solid fa-ellipsis-v"></i></a>
+                    </div>
+               
+                    <p class="post-text">Like and share this video with friends, tag <span>Farooqui Shaker</span> facebook page on your post. Ask your doubts in the comments <a href="https://www.facebook.com/home.php?ref=homescreenpwa">Facebook</a></p>
+                    <img src="./img/feed-image-1.png" class="post-img">
+    
+                    <div class="post-row">
+                        <div class="activity-icons">
+                           <div><img src="./img/like.png"> 809</div>
+                           <div><img src="./img/comments.png"> 514</div>
+                           <div><img src="./img/share.png"> 231</div>
+                        </div>
+                        <div class="post-profile-icon">
+                          <img src="./img/user.png"> <i class="fa-solid fa-caret-down"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+         </div>
+
+
+
+    </div>
+    </div>
+    <!-- main body ends -->
+
+    <div id="fb-root"></div>
+    <script
+      async
+      defer
+      crossorigin="anonymous"
+      src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v10.0"
+      nonce="zUxEq08J"
+    ></script>
+  </body>
+</html>
